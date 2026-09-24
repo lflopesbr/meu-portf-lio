@@ -45,3 +45,25 @@ li {
 section {
     margin-bottom: 25px;
 }
+
+.contatos {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.contatos a {
+    text-decoration: none;
+    background-color: #3b82f6;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.contatos a:hover {
+    background-color: #2563eb;
+    transform: translateY(-2px)
+}
